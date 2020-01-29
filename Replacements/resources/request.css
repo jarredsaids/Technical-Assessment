@@ -1,0 +1,163 @@
+/*
+	Outer Frame
+*/
+#container {
+	background: white; 
+	max-width: 960px;
+	margin: 28px auto;
+	border-radius: 6px;
+	color: 	#696969;
+	font-family: "Times New Roman", Times, serif;
+}
+/*
+	Inner Frame
+*/
+#container-inner {
+	width: 90%;
+	background: white; 
+	border-radius: 6px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+/*
+	Header Elements
+*/
+
+#header {
+	background-color: white;
+	height: 80px;
+
+}
+
+#header-table {
+	/*place holder for future modifications*/
+}
+
+#head-logo-img{
+	width: 76px;
+	height: 76px;
+	float: none;
+}
+
+/*
+	Main
+*/
+#hidden-frame {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+hr {
+	border: 1px solid gray;
+	width: 80%;
+}
+body {
+	background-color: white;
+}
+div {
+	display: block;
+}
+
+#title-name {
+	text-align: center;
+}
+
+#title-description {
+	width: 80%;
+	border-radius: 6px;
+    margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+/*
+	Form inside Main
+*/
+
+#main_form {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.form-section {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.form-label {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.required-label::after {
+	content: "*";
+	color: red;
+}
+input[type=text], select, textarea {
+  width:92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=tel], select, textarea {
+  width:92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+input[type=number], select, textarea {
+  width:92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+select, textarea {
+  width:92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+#form_piece2 {
+	display: none;
+}
+#form_piece3 {
+	display: none;
+}
+
+/*
+	requestProcess Page
+*/
+#button-area {
+	width: 80%;
+	border-radius: 6px;
+    margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#request-details {
+	width: 80%;
+	border-radius: 6px;
+    margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+.detail {
+	font-weight: bold;
+	font-size: 1.1em;
+}
