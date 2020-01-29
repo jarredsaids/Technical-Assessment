@@ -1,7 +1,7 @@
 # Technical-Assessment
 Piece Request Feature
 
-This Project starts with the request.php in the home directory (stylized with /resources/request.css).  
+This Project starts with the request.php in the Replacements directory (stylized with /resources/request.css).  
 
 The user is presented with a form to add their personal information, as well as the data for up to 3 "out of stock" items. (Powered by resources/request.js)
 
